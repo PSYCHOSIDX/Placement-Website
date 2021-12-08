@@ -2,7 +2,9 @@
 
 A simple placement website for Engineering Colleges .
 
-Made with HTML CSS JAVASCRIPT SQL PHP AND BOOTSTRAP 4
+Made with HTML CSS JAVASCRIPT MySQL PHP AND BOOTSTRAP 4
+
+![Violet and Purple Visual Chaos Technology Presentation](https://user-images.githubusercontent.com/63893110/145222666-5ceb968d-cb61-4626-a04f-12364c008125.png)
 
 # DATA FLOW DIAGRAM :
 ![vjyvjv](https://user-images.githubusercontent.com/63893110/145216627-be9434c9-1630-4c9f-bc18-a361777bc4ea.png)
