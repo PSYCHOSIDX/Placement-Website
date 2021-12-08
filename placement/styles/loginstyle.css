@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  min-width: 1380px;
+  min-height: 110vh;
+  background-image: linear-gradient(60deg, rgba(255, 255, 255, 0.747), white);
+  background-size: 100% 100%;
+}
+
+.mainheader {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.logo p {
+  margin-top: 5px;
+  width: 350px;
+  font-size: 25px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.mainheader nav {
+  margin-top: 15px;
+  background-color: rgba(14, 14, 14, 0.808);
+  width: 550px;
+  font-weight: 200;
+  font-family: serif;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainheader nav a {
+  margin-top: -17px;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 300;
+}
+
+.mainheader nav a:hover {
+  color: #326ef1;
+  border-radius: 3px;
+}
+
+main {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .rsec {
+  width: 50%;
+  margin-top: 66vh;
+}
+
+main .rsec img {
+  width: 540px;
+  height: 80vh;
+  margin-right: 70px;
+}
+
+main .lsec {
+  width: 40%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form {
+  height: 5vh;
+  color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form h1 {
+  font-family: 'Arial Narrow', Arial;
+  color: #355ee2;
+  font-size: 35px;
+  margin-bottom: 5vh;
+}
+
+form input {
+  background-color: rgba(0, 0, 0, 0.774);
+  margin: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 9px;
+  border-style: none;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  cursor: pointer;
+  pointer-events: visiblePainted;
+}
+
+form input a:hover {
+  background-color: #3d3daf;
+}
+
+form select {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-decoration: none;
+  border-style: none;
+  padding: 5px;
+  background-color: rgba(78, 78, 78, 0.925);
+  border: 1px solid white;
+  color: #f7f7f7;
+  width: 250px;
+}
+
+form h3 {
+  text-align: center;
+  margin: 10px;
+}
+
+form a {
+  color: black;
+}
+
+.footer {
+  margin-top: 67vh;
+  color: white;
+  height: 5vh;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  text-align: center;
+  background-color: #2b2a2a;
+}
+
+.footer p {
+  margin-top: 10px;
+  padding: 9px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=loginstyle.css.map */

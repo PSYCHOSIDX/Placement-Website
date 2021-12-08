@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+// navbar
+.navbar{
+    background-image: linear-gradient(45deg,red,blue);
+    box-shadow: 0px 5px 10px rgba(112, 112, 112, 0.781);
+    padding: 5px !important;
+    
+}
+
+h4
+{color: white;
+padding: 6px 8px;}
+
+.navbar-nav li{
+    padding: 0px 35px;
+   
+}
+.navbar-nav li a{
+    color: white;
+    font-size: 22px;
+    padding: 0px 10px;
+    float: right;
+       
+}
+.nav-link:hover{
+    color: rgb(60, 141, 216);
+    
+    background-color: rgba(248, 247, 247, 0.945);
+    border-radius: 4px;
+}
+
+.fa-bars{
+    color: rgb(255, 255, 255);
+    font-size: 33px !important;
+    padding: 5px 5px;
+    
+}
+.navbar-toggler{
+    outline: none !important;
+    margin-right: 20px;
+}
+
+//contents
+.mission{
+    font-size: 53px;
+    padding-bottom: 15px;
+    color: rgba(127, 20, 250, 0.849);
+}
+p{
+    font-size: 18px;
+    font-weight: 120;
+    color: grey;
+}
+// button design customs
+.bt-login{
+color: white;
+margin-top: 20px !important;
+padding: 20px 40px;
+border-radius: 7px !important;
+cursor: pointer;
+background-image: linear-gradient(98deg,red,blue);
+}
+
+.bt-login:hover{
+    background-image: linear-gradient(45deg,rgb(51, 51, 51),rgba(126, 126, 126, 0.815));
+    box-shadow: 0px 5px 10px grey;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+// button design customs
+.bt-flu{
+    color: white;
+    padding: 20px 40px;
+    border-radius: 7px !important;
+    background-image: linear-gradient(45deg,rgb(51, 51, 51),rgba(48, 47, 47, 0.815));
+    cursor: pointer;
+      }
+    
+    .bt-flu:hover{
+        background-image: linear-gradient(45deg,rgb(51, 51, 51),rgba(126, 126, 126, 0.815));
+        box-shadow: 0px 5px 10px grey;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    
+    }
+
+#content{
+    width: 100%;
+}
+
+.container{
+   padding: 20px;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
+.left-side{
+    width: 80% !important;
+    column-gap: 20px;
+   
+}
+
+
+.right-side{
+    width: 100% !important;
+    padding: 20px 20px;
+  column-gap: 20px;
+
+}
+.tag-line{
+    color: rgb(129, 28, 224);
+    margin-left: 5px;
+    box-shadow: 0px 5px 12px rgba(128, 128, 128, 0.582);
+    text-align: center;
+}
+.login-headx{
+    color: rgb(138, 44, 192);
+}
+//login-head
+.login-head{
+    color: rgb(166, 61, 192);
+}
+h3{
+    color: rgb(95, 95, 95);
+    font-size: 18px;
+}
+
+
+// contact tagline
+.contact-tag-line{
+    color: rgb(139, 37, 179);
+    margin-left: 5px;
+    box-shadow: 0px 5px 12px rgba(128, 128, 128, 0.582);
+    text-align: center;
+    font-size: 16px;
+}
+// login tagline
+.login-tag-line{
+    color: rgb(110, 37, 179);
+    margin-left: 5px;
+    box-shadow: 0px 5px 12px rgba(128, 128, 128, 0.582);
+    text-align: center;
+    font-size: 16px;
+}
+// signup tagline
+.sign-tag-line{
+    color: rgb(124, 8, 190);
+    margin-left: 5px;
+    box-shadow: 0px 5px 12px rgba(77, 76, 76, 0.582);
+    text-align: center;
+    font-size: 13px;
+}
+.img-fluid{
+    margin-top: 19px;
+    width: 85%;
+   
+}
+
+//sign up
+.sign_img{
+    width: 70%;
+    
+}
+// student signup image
+.student_img{
+    width: 90%;
+
+}
+
+// company signup image
+.com_img{
+    width: 100%;
+    
+}
+
+// wrong credentials page img
+.wrong{
+    width: 50%;
+    height: 59%;
+}
+
+//footer
+.footer{
+    background-color: blue($color: #2f3030);
+}
