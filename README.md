@@ -4,7 +4,10 @@ A simple placement website for Engineering Colleges .
 
 Made with HTML CSS JAVASCRIPT SQL PHP AND BOOTSTRAP 4
 
-Contains 3 Main Modules :
+# DATA FLOW DIAGRAM :
+![vjyvjv](https://user-images.githubusercontent.com/63893110/145216627-be9434c9-1630-4c9f-bc18-a361777bc4ea.png)
+
+# Contains 3 Main Modules :
 
 # ADMIN
 .The website allows Admin to view & Manipulate data of any user .
