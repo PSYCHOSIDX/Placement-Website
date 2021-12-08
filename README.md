@@ -1,4 +1,4 @@
-# Placement_Website
+# Placement Website
 
 A simple placement website for Engineering Colleges .
 
